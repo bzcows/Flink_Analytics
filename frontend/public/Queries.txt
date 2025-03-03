@@ -1,0 +1,36 @@
+SELECT merchantId, MAX(amount) AS maxAmount FROM Transactions GROUP BY merchantId
+
+SELECT merchantId || COUNT(*) AS maxAmount FROM Transactions 
+GROUP BY merchantId
+
+
+
+
+WebSocket message received: {timestamp: 1738884472817, data: '{"type":"add","data":"MERCH1001,500.5809520355561"}', type: 'query_result'} 
+
+
+Sample Queries:
+
+SELECT 'Totals', COUNT(*)
+FROM Transactions 
+
+
+SELECT merchantId, MAX(amount) AS maxAmount 
+FROM Transactions 
+GROUP BY merchantId
+
+
+SELECT merchantId, COUNT(*) AS totalTx FROM Transactions 
+where  merchantId='MERCH1008' 
+GROUP BY merchantId
+
+
+
+SELECT ccType, SUM(amount) AS maxAmount 
+FROM Transactions 
+GROUP BY ccType
+
+
+SELECT merchantId, ccType, count(*) AS txCounts 
+FROM Transactions 
+GROUP BY merchantId,ccType
