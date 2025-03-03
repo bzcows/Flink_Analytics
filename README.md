@@ -1,6 +1,12 @@
-# CC Aggregator
+# Flink Dynamic CEP Demo - AI VIBE-CODING Aggregator
 ​
-CC Aggregator is a full-stack application designed to aggregate and process transaction data using real-time streaming.
+THis is project that built using AI-VIBE coding. It is inspired by a real project is https://getindata.com/blog/dynamic-sql-processing-with-apache-flink/.
+
+I wanted to see if I can build the same project (almost) purely using AI and Vibe-Coding. I uses Cline/RooCode + DeepSeek V3, Cluade Sonnet 3.5 and Sonnet 3.7 
+to build this app using ONLY prompts. I did not write a single line of code myself (fyi- I am full-time developer) as an experiment to see what can be done using Vibe coding. I started on an empty folder, and prompted the LLM to create the project structure and the tech stack and continue to prompt it with details, starting with defining what the input message atttributes are etc.. THIS WAS PURE ENLISH PROMPTS!!!
+
+It took me many hours(and many tokens/$$) to get it to a point where I thought this was good enough as an experiment to upload. 
+
 ​
 ## Project Overview
 ​
